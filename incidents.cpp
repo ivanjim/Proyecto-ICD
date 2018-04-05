@@ -213,7 +213,7 @@ pair<string, unsigned> getMostCommittedIncident() {
  *Obtener el numero de incidentes en una zona determinada de la ciudad.
  */
 int getCountIncidentsByZone(string district) {
-	cout << "Obtener el número de incidentes en un distrito concreto." << endl;
+	cout << "Get the number of incidents in a district" << endl;
 
 	string line = "";
 	ifstream file;
@@ -287,7 +287,7 @@ bool validarFecha(string date) {
 }
 
 void getIncidentsByDateAndZone(string date, string district) {
-	cout << "Obtener los incidentes a partir de una fecha y una zona." << endl;
+	cout << "Get incidents from date and zone." << endl;
 
 	string line = "";
 	ifstream file;
@@ -334,7 +334,7 @@ void getIncidentsByDateAndZone(string date, string district) {
 			}
 		}
 	} else {
-		cout << "Error en el formato de la fecha (mm/dd/yyyy)." << endl;
+		cout << "Format Error (mm/dd/yyyy)." << endl;
 	}
 
 	cout << endl;
